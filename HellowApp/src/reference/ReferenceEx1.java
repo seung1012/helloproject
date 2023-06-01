@@ -1,6 +1,6 @@
 package reference;
 
-class Student{
+class Student1{
 	String name;
 	int age;
 }
@@ -20,11 +20,11 @@ public class ReferenceEx1 {
 //		
 //		System.out.println("name: "+ name + ", name1:" +name1);
 //		String hobby="독서";
-		Student s1= new Student();
+		Student1 s1= new Student1();
 		s1.name = "홍길동";
 		s1.age= 20;
 		
-		Student s2= s1;
+		Student1 s2= s1;
 		s1.name= "김길동";
 		s1.age = 22;
 //		s1=null;
