@@ -85,9 +85,9 @@ public class ObjedtEx6StudentApp {
 					gcnt++;
 				}
 				
-					if(students[i].getGrade()>maxvalue) {
-						maxvalue=students[i].getGrade();
-						m=students[i].getName();
+				if(students[i].getGrade()>maxvalue) {
+					maxvalue=students[i].getGrade();
+					m=students[i].getName();
 				}		
 			}
 		}

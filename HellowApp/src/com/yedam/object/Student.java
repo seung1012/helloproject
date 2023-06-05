@@ -6,6 +6,14 @@ public class Student {
 	private String gender;
 	private int grade;
 	
+	// constructor.
+	public Student(String stdNo, String stdName, String gender, int score) {
+		this.stuid = stdNo;
+		this.name = stdName;
+		this.gender = gender;
+		this.grade = score;
+	}
+	
 	
 	void setStuid(String stuid) {
 		this.stuid=stuid;
@@ -32,4 +40,8 @@ public class Student {
 	int getGrade() {
 		return this.grade;
 	}
+	public void showInfo() {
+		System.out.printf("학번 %s, 이름 %s, 점수 %d \n", stuid, name, grade);
+	}
+
 }
